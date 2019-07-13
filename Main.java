@@ -15,13 +15,13 @@ public class Main {
         Приятного просмотра.
          */
 
-        group.printGroupName();
-        group.lastStudyWeek();
-        group.addStudent();
+        //group.printGroupName();
+        //group.lastStudyWeek();
+        //group.addStudent();
         group.printList();
         group.lastNameCheck();
-        group.removePersonByIndex();
-        group.removePersonByLastname();
+        //group.removePersonByIndex();
+        //group.removePersonByLastname();
 
     }
 

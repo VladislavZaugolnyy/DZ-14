@@ -79,11 +79,18 @@ public class Group {
     }
 
     public void lastNameCheck() {
+        System.out.println("Введите фамилию");
+        int count = 0;
         String checkLastName = scanner.nextLine();
         for (int i = 0; i < students.size(); i++) {
             if (students.get(i).getLastName().equals(checkLastName)) {
-                System.out.println("Есть такой");
+                count++;
             }
+        }
+        if (count == 1) {
+            System.out.println("Есть такой");
+        } else {
+            System.out.println("Нету такого");
         }
     }
 
