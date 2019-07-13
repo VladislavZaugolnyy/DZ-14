@@ -100,7 +100,7 @@ public class Group {
         students.remove(index);
         printList();
     }
-    public void removePersonByLastname() {
+    public void removePersonByLastName() {
         System.out.println("Введите фамилию студента");
         String lastnameOfPerson = scanner.nextLine();
         for (int i = 0; i < students.size(); i++) {
