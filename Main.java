@@ -21,7 +21,7 @@ public class Main {
         group.printList();
         group.lastNameCheck();
         //group.removePersonByIndex();
-        //group.removePersonByLastname();
+        //group.removePersonByLastName();
 
     }
 
